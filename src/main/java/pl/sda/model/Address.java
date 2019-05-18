@@ -1,5 +1,9 @@
 package pl.sda.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+//Adnotacja ignoruje nieznane pola w trakcie serializacji/deseralizacji
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Address {
     private String city;
     private String street;

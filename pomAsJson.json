@@ -1,0 +1,30 @@
+{
+  "modelVersion": "4.0.0",
+  "groupId": "pl.sda",
+  "artifactId": "files",
+  "version": "1.0-SNAPSHOT",
+  "name": "files",
+  "properties": {
+    "project.build.sourceEncoding": "UTF-8",
+    "maven.compiler.source": "1.8",
+    "maven.compiler.targ": "1.8"
+  },
+  "dependencies": [
+    {
+      "groupId": "junit",
+      "artifactId": "unit",
+      "version": "4.12",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.json",
+      "artifactId": "json",
+      "version": "20180813"
+    },
+    {
+      "groupId": "org.apache.poi",
+      "artifactId": "poi-ooxml",
+      "version": "4.1.0"
+    }
+  ]
+}

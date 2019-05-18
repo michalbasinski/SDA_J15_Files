@@ -1,0 +1,19 @@
+{
+  "name": "Jan",
+  "lastName": "Kowalski",
+  "addresses" : [
+    {
+      "type": "permanent",
+      "city": "Poznań",
+      "street" : "Rynek Jeżycki 1",
+      "postalCode": "60-123"
+    },
+    {
+      "type": "temporary",
+      "city": "Poznań",
+      "street" : "Dąbrowskiego 10",
+      "postalCode": "60-123"
+    }
+
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Jan",
+  "lastName": "Kowalski",
+  "address" : {
+    "city": "Poznań",
+    "street" : "Rynek Jeżycki 1",
+    "postalCode": "60-123"
+  }
+}
